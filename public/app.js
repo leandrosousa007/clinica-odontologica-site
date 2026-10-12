@@ -28,6 +28,7 @@ tabs.forEach(tab=>tab.addEventListener('click',()=>{
   const image=document.querySelector('#showcase-image')
   image.src=item.image
   image.alt=item.alt
+  document.querySelector('#showcase-image-link').href=item.image
   document.querySelector('#showcase-enlarge').href=item.image
   document.querySelector('.screen-frame').classList.toggle('compact',tab.dataset.screen==='agenda')
 }))
