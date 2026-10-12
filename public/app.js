@@ -11,12 +11,12 @@ menu?.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{
   menuButton?.setAttribute('aria-label','Abrir menu')
 }))
 const screens={
-  agenda:{title:'Uma agenda que mostra o dia inteiro',text:'Veja horários, profissionais e pacientes; abra atendimentos e encontre rapidamente o próximo passo.',image:'/assets/agenda.png',alt:'Captura da agenda do aplicativo com dados fictícios'},
-  ficha:{title:'A história do paciente em uma só ficha',text:'Dados cadastrais, consultas, anamnese, odontograma e documentos em um espaço organizado.',image:'/assets/ficha.png',alt:'Captura da ficha do paciente com dados fictícios'},
-  financeiro:{title:'Recebimentos sem perder o contexto',text:'Acompanhe cobranças, pagamentos, convênios e recibos com uma leitura simples.',image:'/assets/financeiro.png',alt:'Captura da página financeira com dados fictícios'},
-  relatorios:{title:'Informação pronta para decidir',text:'Filtre a atividade da clínica e exporte relatórios em PDF, CSV ou XLSX.',image:'/assets/relatorios.png',alt:'Captura da página de relatórios com dados fictícios'},
-  acompanhamento:{title:'Continue perto de cada paciente',text:'Lista de espera, retornos e aniversariantes ajudam a manter o contato no momento certo.',image:'/assets/acompanhamento.png',alt:'Captura da página de acompanhamento com dados fictícios'},
-  administracao:{title:'Configurações em um lugar claro',text:'Profissionais, procedimentos, horários, backups e auditoria organizados por seção.',image:'/assets/administracao.png',alt:'Captura da página de administração com dados fictícios'}
+  agenda:{title:'Uma agenda que mostra o dia inteiro',text:'Veja horários, profissionais e pacientes; abra atendimentos e encontre rapidamente o próximo passo.',image:'/assets/agenda-notebook.png',alt:'Captura da agenda do aplicativo com dados fictícios'},
+  ficha:{title:'A história do paciente em uma só ficha',text:'Dados cadastrais, consultas, anamnese, odontograma e documentos em um espaço organizado.',image:'/assets/ficha-notebook.png',alt:'Captura da ficha do paciente com dados fictícios'},
+  financeiro:{title:'Recebimentos sem perder o contexto',text:'Acompanhe cobranças, pagamentos, convênios e recibos com uma leitura simples.',image:'/assets/financeiro-notebook.png',alt:'Captura da página financeira com dados fictícios'},
+  relatorios:{title:'Informação pronta para decidir',text:'Filtre a atividade da clínica e exporte relatórios em PDF, CSV ou XLSX.',image:'/assets/relatorios-notebook.png',alt:'Captura da página de relatórios com dados fictícios'},
+  acompanhamento:{title:'Continue perto de cada paciente',text:'Lista de espera, retornos e aniversariantes ajudam a manter o contato no momento certo.',image:'/assets/acompanhamento-notebook.png',alt:'Captura da página de acompanhamento com dados fictícios'},
+  administracao:{title:'Configurações em um lugar claro',text:'Profissionais, procedimentos, horários, backups e auditoria organizados por seção.',image:'/assets/administracao-notebook.png',alt:'Captura da página de administração com dados fictícios'}
 }
 const tabs=[...document.querySelectorAll('[data-screen]')]
 tabs.forEach(tab=>tab.addEventListener('click',()=>{
