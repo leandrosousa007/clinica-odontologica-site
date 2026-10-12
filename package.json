@@ -1,0 +1,7 @@
+{
+  "name": "clinica-odontologica-site",
+  "private": true,
+  "type": "module",
+  "scripts": {"dev":"astro dev","build":"astro build","check":"node --check public/app.js && astro build"},
+  "dependencies": {"astro":"^7.3.8"}
+}
