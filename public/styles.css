@@ -24,3 +24,5 @@
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{transition:none!important;animation:none!important}}
 
 
+
+@media(min-width:761px){.showcase-nav{max-height:670px;overflow-y:auto;scrollbar-width:thin}.showcase-stage{align-self:start}}
